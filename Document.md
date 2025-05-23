@@ -74,3 +74,34 @@ This document outlines the structure, decisions, and considerations made while b
 | Event Detail | `/events/[id]`     | `GET /api/events/[id]`      |
 | Register     | `EventDetail` Form | `POST /api/events/register` |
 | Pagination   | `Pagination`       | URL query params            |
+
+How to Start the Project
+Prerequisites
+Node.js (v18 or higher recommended)
+
+npm or yarn
+
+Git
+
+Installation Steps
+
+# Clone the repository
+
+git clone <repository-url>
+cd <project-directory>
+
+# Install dependencies
+
+npm install
+
+# or
+
+yarn install
+
+# Run development server
+
+npm run dev
+
+# or
+
+yarn dev
